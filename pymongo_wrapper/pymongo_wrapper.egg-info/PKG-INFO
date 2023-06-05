@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pymongo-wrapper
+Version: 0.1
+Summary: schemaless pymongo wrapper to make the advance mongodb query based on the pymongo package
+Author: MDevPro
+Author-email: mdevpro.2020@gmail.com
