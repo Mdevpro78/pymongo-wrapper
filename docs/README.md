@@ -28,12 +28,12 @@
 - [Built Using](#built_using)
 - [Authors](#authors)
 
-## 🧐 About `<a name = "about"></a>`
+## 🧐 About
 
 PyMongo Wrapper provides a simple wrapper around pymongo which is providing CRUD functionality on the MongoDB
 when we don't have Schema (Schemaless)
 
-## 🏁 Getting Started `<a name = "getting_started"></a>`
+## 🏁 Getting Started 
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ or just
 pip install .
 ```
 
-## 🎈 Usage `<a name="usage"></a>`
+## 🎈 Usage 
 
 ### for Python Project
 
@@ -121,12 +121,12 @@ for result in results:
 
 ```
 
-## ⛏️ Built Using `<a name = "built_using"></a>`
+## ⛏️ Built Using 
 
 - [MongoDB](https://www.mongodb.com/) - MongoDB
 - [Django](https://www.djangoproject.com/) - Django
 - [PyMongo](https://pymongo.readthedocs.io/en/stable/index.html) - MongoDB python Driver
 
-## ✍️ Authors `<a name = "authors"></a>`
+## ✍️ Authors 
 
 - [@MdevPro](https://github.com/Mdevpro78/pymongo-wrapper)
