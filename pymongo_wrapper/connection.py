@@ -11,7 +11,7 @@ from pymongo import MongoClient
 from pymongo.database import Database
 from typing import Union, Any, Mapping
 
-from pymongo_wrapper.utils import find_package
+from .utils import find_package
 
 
 class MongoDBConnection:

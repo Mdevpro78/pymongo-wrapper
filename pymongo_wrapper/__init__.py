@@ -1,10 +1,10 @@
-from connection import MongoDBConnection, DjangoMongoDBConnection
+from .connection import MongoDBConnection, DjangoMongoDBConnection
 
-from pipeline import PipelineBuilder
+from .pipeline import PipelineBuilder
 
-from mixins import DBConnectionMixin
+from .mixins import DBConnectionMixin
 
-from repository import (
+from .repository import (
     FindRepository,
     InsertRepository,
     UpdateRepository,
@@ -15,15 +15,15 @@ from repository import (
 
 
 __all__ = [
-    MongoDBConnection,
-    DjangoMongoDBConnection,
-    PipelineBuilder,
-    DBConnectionMixin,
-    FindRepository,
-    InsertRepository,
-    UpdateRepository,
-    DeleteRepository,
-    QueryRepository,
-    DBRepository,
+    "MongoDBConnection",
+    "DjangoMongoDBConnection",
+    "PipelineBuilder",
+    "DBConnectionMixin",
+    "FindRepository",
+    "InsertRepository",
+    "UpdateRepository",
+    "DeleteRepository",
+    "QueryRepository",
+    "DBRepository",
 ]
 

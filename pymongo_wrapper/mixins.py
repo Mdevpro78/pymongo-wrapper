@@ -2,7 +2,7 @@
 This module provides a mixin class for connecting to a MongoDB database using PyMongo.
 """
 
-from connection import MongoDBConnection
+from .connection import MongoDBConnection
 
 
 class DBConnectionMixin:

@@ -20,7 +20,7 @@ from pymongo.cursor import CursorType
 from typing import List, Dict, Any, Collection
 
 
-from mixins import DBConnectionMixin
+from .mixins import DBConnectionMixin
 
 class FindRepository:
     """
