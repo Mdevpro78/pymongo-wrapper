@@ -1,7 +1,0 @@
-README.md
-setup.py
-pymongo_wrapper.egg-info/PKG-INFO
-pymongo_wrapper.egg-info/SOURCES.txt
-pymongo_wrapper.egg-info/dependency_links.txt
-pymongo_wrapper.egg-info/requires.txt
-pymongo_wrapper.egg-info/top_level.txt
