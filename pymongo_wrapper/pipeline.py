@@ -62,9 +62,7 @@ class PipelineBuilder:
     def sort(self, sortby: Union[List[Tuple[str, int]], Tuple[str, int]]) -> 'PipelineBuilder':
         if isinstance(sortby, tuple):
             sortby = [sortby]
-        sort_dict = {}
-        for field, direction in sortby:
-            sort_dict[field] = direction
+        sort_dict = dict(sortby)
         self.pipeline.append({'$sort': sort_dict})
         return self
 
