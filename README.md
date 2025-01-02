@@ -15,7 +15,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center">
     <br> 
 	This Python Package called PyMongo Wrapper wrapp the Pymongo python package for projects which are schemaless
 </p>
